@@ -1,18 +1,19 @@
-{
+{ "homepage": "http://MANISH-LAB.github.io/chatcord",
   "name": "chatcord",
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
-  "main": "server.js",
+  "main": "server.cjs","type": "module",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
+  "author": "Manish Kalyan",
   "license": "MIT",
   "dependencies": {
     "@socket.io/redis-adapter": "^7.1.0",
     "dotenv": "^14.3.2",
     "express": "^4.17.1",
+    "gh-pages": "^6.0.0",
     "moment": "^2.24.0",
     "redis": "^4.0.2",
     "socket.io": "^4.4.1"

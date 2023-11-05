@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("C:\Users\KIIT\Downloads\chatcord-master\chatcord-master\server.cjs");
 const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
